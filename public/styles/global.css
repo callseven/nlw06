@@ -26,14 +26,12 @@ html {
 }
 
 body {
-  height: 100vh;
   display: flex;
+  height: 100vh;
   background-color: var(--background);
 }
-body,
-button,
-input,
-textarea {
+
+body, button, input, textarea{
   /* intervalo de tamanho */
   font-size: clamp(14px, 1.6rem, 2vw);
   font-family: "Open Sans", sans-serif;
@@ -56,15 +54,12 @@ textarea {
 }
 
 /* input and buttons */
-input,
-button,
-.button {
+input, button, .button {
   border-radius: 0.8rem;
   height: 5rem;
 }
 
-button,
-.button {
+button, .button {
   font-family: "Poppins";
   font-weight: 500;
   line-height: 0;
@@ -77,15 +72,16 @@ button,
   cursor: pointer;
 }
 
-button:hover,
-.button:hover {
+button:hover, .button:hover {
   filter: brightness(1.2);
 }
+
 button > img,
 .button > img {
   margin-right: 1rem;
   width: 2rem;
 }
+
 button.outlined,
 .button.outlined {
   background: var(--white);
